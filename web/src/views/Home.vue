@@ -2,16 +2,19 @@
   <div class="home">
     <action-button/>
     <feed-list/>
+    <feed-detail/>
   </div>
 </template>
 
 <script>
 import ActionButton from '../components/ActionButton.vue'
 import FeedList from '../components/FeedList.vue'
+import FeedDetail from '../components/FeedDetail.vue'
 export default {
   components:{
     "action-button":ActionButton,
     "feed-list":FeedList,
+    "feed-detail":FeedDetail
   }
 }
 </script>
